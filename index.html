@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalkulyator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="calculator">
+    <h1>Kalkulyator</h1>
+    <div class="display">
+      <p id="expression" aria-hidden="true"></p>
+      <output id="result" aria-label="Nəticə" aria-live="polite">0</output>
+    </div>
+    <div class="keypad">
+      <button type="button" data-key="clear" class="aux">AC</button>
+      <button type="button" data-key="backspace" class="aux" aria-label="Son simvolu sil">⌫</button>
+      <button type="button" data-key="percent" class="aux" aria-label="Faiz">%</button>
+      <button type="button" data-key="/" class="operator" aria-label="Böl">÷</button>
+      <button type="button" data-key="7">7</button>
+      <button type="button" data-key="8">8</button>
+      <button type="button" data-key="9">9</button>
+      <button type="button" data-key="*" class="operator" aria-label="Vur">×</button>
+      <button type="button" data-key="4">4</button>
+      <button type="button" data-key="5">5</button>
+      <button type="button" data-key="6">6</button>
+      <button type="button" data-key="-" class="operator" aria-label="Çıx">−</button>
+      <button type="button" data-key="1">1</button>
+      <button type="button" data-key="2">2</button>
+      <button type="button" data-key="3">3</button>
+      <button type="button" data-key="+" class="operator" aria-label="Topla">+</button>
+      <button type="button" data-key="sign" class="aux" aria-label="İşarəni dəyiş">±</button>
+      <button type="button" data-key="0">0</button>
+      <button type="button" data-key="." aria-label="Onluq nöqtə">.</button>
+      <button type="button" data-key="=" class="equals" aria-label="Hesabla">=</button>
+    </div>
+  </main>
+</body>
+</html>
